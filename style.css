@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5fdf7;
+    /* Fondo verde claro */
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+.icono {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    background-color: #d1f7e1;
+    padding: 5px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.navbar-brand:hover {
+    color: #4dd378;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    margin-left: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #28a745;
+}
+
+.navbar-collapse {
+    transition: all 0.3s ease-in-out; /* Añade una transición suave */
+}
+
+section {
+    padding: 80px 0;
+}
+
+.welcome-section {
+    background-color: #e9faef;
+    /* Verde más claro para la sección de bienvenida. */
+    text-align: center;
+    background-image: url("https://img.freepik.com/fotos-premium/productos-dieteticos-mesa-vista-superior-enfoque-selectivo-keto_847296-42903.jpg");
+    /* Reemplazar con la URL de tu imagen */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    /* Asegúrese de que el texto sea visible en el fondo */
+    padding: 100px 0;
+    /* Aumente el relleno para un mejor espaciado */
+}
+
+.welcome-section h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.welcome-section p {
+    color: white;
+    font-size: 25px;
+}
+
+.carousel-section {
+    background-color: #f5fdf7;
+}
+
+.carousel-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #28a745;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+}
+
+img {
+    width: 200px;
+    height: 600px;
+}
+
+.catalogo-section {
+    background-color: #e9faef;
+    text-align: center;
+    padding: 25px;
+}
+
+
+
+.ver-mas {
+    display: flex;
+    justify-content: center;
+}
+
+#btn-mas {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    text-decoration: none;
+    
+}
+
+#btn-mas:hover {
+    color: #259740;
+    background-color: #e9faef;
+    border: none;
+    text-decoration: none;
+}
+
+.about-us-section {
+    background-color: #f5fdf7;
+    text-align: center;
+}
+
+.about-us-section h2 {
+    color: #28a745;
+    margin-bottom: 20px;
+}
+
+.help-section {
+    background-color: #e9faef;
+    text-align: center;
+}
+
+.help-section h2 {
+    color: #28a745;
+    margin-bottom: 20px;
+}
+.footer-container {
+    background-color: #d1f7e1;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Ajustes responsives */
+/* Estilos para pantallas con un ancho máximo de 768px */
+@media (max-width: 1920px) {
+  .navbar-nav {
+    text-align: center; /* Centra los elementos del menú */
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 5px 0; /* Espaciado entre elementos */
+  }
+
+  .navbar-toggler {
+    border: none; /* Elimina el borde del botón toggler */
+  }
+}
+
+/* Estilos adicionales para pantallas con un ancho máximo de 576px */
+@media (max-width: 412px) {
+    /* Puedes agregar ajustes específicos para pantallas más pequeñas aquí */
+    .navbar-nav {
+        text-align: center; /* Centra los elementos del menú */
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem; /* Reduce el tamaño del texto de la marca */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.9rem; /* Reduce el tamaño de los enlaces del menú */
+    }
+
+    .navbar-toggler {
+        border: none; /* Elimina el borde del botón toggler */
+    }
+}
